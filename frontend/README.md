@@ -1,6 +1,10 @@
 # 개요
 * vuejs과 keycloak 연동
 
+# 버전 이력
+* v1.0 AlwaysRequestAuth branch: 항상 인증 요청
+
+
 <br>
 
 # 참고자료
