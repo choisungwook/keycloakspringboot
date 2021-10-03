@@ -14,11 +14,7 @@
     </v-app-bar>
 
     <v-main class="grey lighten-2">
-      <v-container>
-        <v-row>
-          <router-view></router-view>
-        </v-row>
-      </v-container>
+      <router-view></router-view>
     </v-main>
   </v-app>
 </template>
