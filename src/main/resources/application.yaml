@@ -1,0 +1,12 @@
+server:
+  port: 10300
+
+keycloak:
+  realm: Springboot-demo
+  auth-server-url: http://localhost:13050/auth
+  ssl-required: external
+  resource: demo
+  credentials.secret: b76cf59f-657c-44bd-b414-0bf888f1f0d8
+  use-resource-role-mappings: true
+#  bearer-only: true
+  cors: true
