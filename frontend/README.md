@@ -8,3 +8,4 @@
 * vue plugin 공식문서: https://kr.vuejs.org/v2/guide/plugins.html
 * https://davidtruxall.com/secure-a-vue-js-app-with-keycloak
 * https://medium.com/js-dojo/authentication-made-easy-in-vue-js-with-keycloak-c03c7fff67bb
+* vuex store와 keycloak 연동: http://heidloff.net/article/securing-vue-js-applications-keycloak/
