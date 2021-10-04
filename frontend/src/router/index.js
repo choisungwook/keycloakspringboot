@@ -48,7 +48,6 @@ router.beforeEach((to, from, next) => {
 
   if (to.meta.requiresAuth) {
     const keycloak = store.getters["keycloak/getKeycloak"];
-    console.log("[router before] auth: " + keycloak.authenticated);
     if (keycloak === undefined || !keycloak.authenticated) {
       console.log("[router before] kecylaok init start");
       security.init(next, to.meta.roles);
