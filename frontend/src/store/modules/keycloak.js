@@ -14,8 +14,8 @@ const mutations = {
   setKeycloak: (state, keycloakObject) => {
     state.keycloakObject = keycloakObject;
   },
-  setLogin: (state) => {
-    state.logined = true;
+  setLogin: (state, status) => {
+    state.logined = status;
   },
   setToken: (state, token) => {
     state.token = token;
@@ -23,8 +23,11 @@ const mutations = {
 };
 
 const actions = {
-  login({ commit }, keycloakObject) {
-    commit("keycloak/setKeycloak", keycloakObject, { root: true });
+  setKeycloakobject({ commit }, keycloakObject) {
+    commit("setKeycloak", keycloakObject);
+  },
+  login({ commit }) {
+    commit("setLogin", true);
   },
 };
 
